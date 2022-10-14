@@ -4,7 +4,7 @@ export default class Welcome extends Component {
   render() {
     return (
         <>
-            <h1 style={{color: 'red',textAlign:'center',margin:'0 auto'}}>Welcome to React!!</h1>  
+            <h1 style={{color: 'black',textAlign:'center',margin:'0 auto'}}>Welcome to React!!</h1>  
         </>
       
     )

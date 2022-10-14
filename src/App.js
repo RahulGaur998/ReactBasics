@@ -10,10 +10,16 @@ export default class App extends Component {
     this.handleClick=this.handleClick.bind(this);
     this.state =({
       students:students,
-      isClicked:false
+      isClicked:false,
       
     });
   }
+  componentDidMount() {
+    setTimeout(() => {
+      document.body.style.backgroundColor = "paleGreen";
+    }, 2000)
+  }
+  
   handleClick() {
     this.setState({isClicked:!this.state.isClicked});
   }
